@@ -49,17 +49,7 @@ const NAV_ITEMS: NavItem[] = [
             </svg>
         ),
     },
-    {
-        id: "recommendation",
-        label: "Recommendation",
-        href: "recommendation",
-        gradient: "from-cyan-400 via-sky-500 to-blue-500",
-        icon: (
-            <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2l-2.81 6.63L2 9.24l5.46 4.73L5.82 21z" />
-            </svg>
-        ),
-    },
+
     {
         id: "contact",
         label: "Contact",
