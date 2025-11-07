@@ -144,9 +144,11 @@ export function BottomNavbar() {
                                 {isActive && (
                                     <motion.div
                                         layoutId="activeNav"
-                                        className="absolute inset-0 rounded-full bg-linear-to-t from-slate-900 to-blue-800/30 -z-10"
+                                        className="absolute inset-0 rounded-full bg-linear-to-t from-slate-900 to-blue-800/30 -z-10 border-amber-50/20 border  drop-shadow-black"
                                         transition={{ type: "spring", stiffness: 250, damping: 25 }}
-                                    />
+                                    >
+                                        <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-transparent via-white to-transparent" />
+                                    </motion.div>
                                 )}
                             </motion.div>
                         </Link>
