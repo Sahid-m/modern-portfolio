@@ -66,7 +66,7 @@ export default function Home() {
         <div className="flex justify-center">
 
           <h1 className="text-md md:text-3xl">
-            Hackathons I've Won(7+):
+            Hackathons I've Won(8+):
           </h1>
         </div>
         <>
